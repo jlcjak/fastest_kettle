@@ -1,0 +1,6 @@
+__pycache__/
+*.FCBak
+sim/out/
+*-bak
+*.kicad_prl
+fp-info-cache

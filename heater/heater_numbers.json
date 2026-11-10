@@ -1,0 +1,21 @@
+{
+ "track_width_mm": 18.04,
+ "gap_mm": 1.0,
+ "r0_mm": 35.0,
+ "turns_per_arm": 2.39,
+ "s_bend_loop_radius_mm": 17.5,
+ "s_to_arm_min_gap_mm": 1.0,
+ "ksd_island_xy_mm": [
+  0.0,
+  0.0
+ ],
+ "ksd_island_radius_mm": 9.0,
+ "squares_estimate": 129.4,
+ "R20_estimate_mohm": 63.6,
+ "R20_mohm": 65.4,
+ "R140_mohm": 96.3,
+ "heated_area_cm2": 573,
+ "current_density_A_mm2_at_400A": 634,
+ "worst_inner_edge_J_ratio": 1.87,
+ "worst_inner_edge_power_ratio": 3.48
+}
