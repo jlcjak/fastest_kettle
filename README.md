@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡🫖 The Fastest Kettle
+# The Fastest Kettle
 
 ### 1 litre of water. 29.5 seconds. Four junkyard car batteries and a PCB.
 
