@@ -11,7 +11,7 @@
 | **Heater PCB** | 1 (5 min) | [`heater/heater_gerbers_jlcpcb.zip`](../heater/heater_gerbers_jlcpcb.zip). JLCPCB: **Aluminum**, 1 layer, 320 × 320 mm, 1.6 mm, 1 oz, 1 W/mK, HASL, **white mask / black silk**. "Confirm production file: yes". If they ask about "single net / no e-test", it's intentional. | $80 + ~$40 DHL |
 | **Stainless cake ring Ø28 cm × 5 cm, fixed size** (not adjustable) | 1 | the pot wall, from a baking shop ([what we used](https://www.skroutz.gr/s/60244405/36140026-tserki-zacharoplastikis-%C3%B828x-y-5ek-anoxeidoto-strogylo.html)) | €8 |
 | **Silicone sealant** | 1 tube | We used Den Braven 1001U (universal acetoxy, rated to only +120 °C). **Use aquarium silicone instead**, e.g. Den Braven/Zwaluw *Aqua-Silicone* (+180 °C, no fungicide). It survives the heat better and is the food-safer choice. **Never** use anti-mould / bathroom silicone. | €3-8 |
-| Feet, printed in **PC** | 4 | [`cad/stl/foot_PC_print_x4.stl`](../cad/stl/foot_PC_print_x4.stl). They touch the ~100 °C rim, so no PLA/PETG/TPU. | filament |
+| Feet, printed in **PC** (optional) | 4 | [`cad/stl/foot_PC_print_x4.stl`](../cad/stl/foot_PC_print_x4.stl). They touch the ~100 °C rim, so no PLA/PETG/TPU. We didn't use them in the end: we tied the board to a steel frame instead. | filament |
 | M5×12 bolts + washers + M5 heat-set inserts | 4 | feet | €2 |
 | Centering jig blocks, printed (PLA/PETG) | 4 | [`cad/stl/centering_jig_block_print_x4.stl`](../cad/stl/centering_jig_block_print_x4.stl). Crush-rib pins push into the board holes, no bolts. | filament |
 
@@ -58,7 +58,10 @@
 3. **Silicone:** scuff the bottom 10 mm of the ring, then lay a 3-4 mm bead in a circle. Lower the ring in against all 4
    blocks and run a fillet inside and outside. Cure warm (we hung it in a heated printer chamber at 20 → 29 °C overnight).
    Wait **24 h before a cold leak test** and **~48 h before boiling**. Pull the jig blocks straight up.
-4. **Feet:** set the M5 inserts into the PC feet, then bolt them through the 45/135/225/315° holes.
+4. **Feet (optional):** set the M5 inserts into the PC feet, then bolt them through the 45/135/225/315° holes.
+   **Tie it down anyway.** Two 35 mm² cables are stiff enough to drag, lift or tip a ~1 kg kettle. Lash the board rim
+   (through free holes, with wire or steel straps, not plastic ties near the hot rim) to something heavy and non-flammable.
+   We skipped the feet and tied the board to a steel frame.
 5. **Terminals:** Scotch-Brite the lug palm and the pad until bright, no grease. Build the stack: M6 bolt, Ø18 washer,
    shoulder washer (sleeve inside the lug hole), lug, board, steel plate, washer, nut. Torque to 8 N·m.
    Check: lug to aluminium reads **open**, and lug to pad is **< 1 mV at 20 A**.

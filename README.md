@@ -85,14 +85,15 @@ Full write-up: **[docs/heater_physics.md](docs/heater_physics.md)**.
   <img src="img/centering_jig.iso.png" width="300" alt="Centering jig blocks">
   <img src="img/feet.iso.png" width="300" alt="Printed PC feet">
 </p>
-<p align="center"><i>The 35 mm² lug bolts straight onto the pad with an insulating shoulder washer · 4 push-fit blocks centre the ring while the silicone cures · 4 PC feet</i></p>
+<p align="center"><i>The 35 mm² lug bolts straight onto the pad with an insulating shoulder washer · 4 push-fit blocks centre the ring while the silicone cures · 4 PC feet (optional; tie it down either way)</i></p>
 
 The short version:
 1. Order the heater (gerbers are in [`heater/`](heater)).
 2. Sand the wet side.
 3. Silicone on a Ø28 cm cake ring, using the printed jig. **Use aquarium silicone**: it handles the heat better and is the
    food-safe choice. We used a generic one and it's rated only to 120 °C.
-4. Bolt on the lugs and print the feet.
+4. Bolt on the lugs and print the feet. The 35 mm² cables are stiff and can drag or tip the kettle, so you may still need to
+   tie it down. We skipped the feet and lashed the board to a steel frame.
 5. Wire 4 car batteries through **two EV200 contactors in series** on a hold-to-run button.
 
 ## What's in here
