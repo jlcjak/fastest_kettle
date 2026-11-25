@@ -49,6 +49,9 @@ Sanding the wet side (random-orbit, 120-240 grit, then degrease) adds nucleation
 - Contact is only ~1 cm², so prep matters: Scotch-Brite both faces, no grease, 8 N·m, and check for < 1 mV at 20 A.
 
 ## Dry = dead
-- With no water the floor heats at ~75 K/s.
-- Within a few seconds the dielectric cooks, the copper lifts, and the trace burns open (48 V at 400 A can also arc).
-- We tested this on purpose: the white soldermask yellowed, then the spiral burned through.
+- With no water and full power, the floor heats at ~75 K/s. Within seconds the dielectric cooks, the copper lifts, and the
+  trace burns open (48 V at 400 A can also arc).
+- We tested this on purpose, at the end of the day with an already exhausted pack (~4-5 kW), so it took a lot longer than
+  that. The white soldermask went yellow (~300 °C), then the copper spiral let go.
+
+![burnt board](../img/real_burnt.jpg)
