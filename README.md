@@ -52,24 +52,8 @@ heater pad. No busbars.*
 | Water | **1050 ml**, weighed, starting at ~12 °C |
 | Time to first boil | **29.5 s** |
 | Average power into the water | **~13.1 kW** (387 kJ / 29.5 s) |
-| Peak measured power | **14.8 kW** (38 V × 389 A) |
 | Simulated, same water and batteries | 28.1 s, close enough to be happy |
 | Simulated, good batteries, 1 L from 15 °C | 24 s |
-
-Then we tried a second run straight away, with a voltmeter on the pack and a clamp meter on the cable. It never boiled.
-
-<table>
-<tr>
-<td width="50%"><img src="img/real_meters.jpg" alt="Second run with voltmeter and clamp meter in view"></td>
-<td width="50%"><img src="img/real_attempt2_steam.jpg" alt="Lots of steam, no rolling boil"></td>
-</tr>
-</table>
-
-<img src="img/result_pack_collapse.png" width="100%" alt="Power, voltage and current falling over 60 s on the second run">
-
-At switch-on the pack's own resistance was already ~31 mΩ (four healthy batteries are ~20 mΩ), and it kept climbing as
-they ran down. After a minute it was making 4 kW. **The kettle was fine; the batteries were the bottleneck.** A fresher bank (or a
-12S2P LiPo pack) is the obvious next step.
 
 ## How it went
 
@@ -93,16 +77,10 @@ they ran down. After a minute it was making 4 kW. **The kettle was fine; the bat
 <sub><b>48 V of car batteries</b> from four different brands, quick-release clamps, ~400 A.</sub></td>
 </tr>
 <tr>
-<td><img src="img/real_test_site.jpg" alt="Test site with the kettle on a steel frame"><br>
-<sub><b>Test day.</b> Outside, on a steel frame, away from anything that burns.</sub></td>
-<td><img src="img/real_food.jpg" alt="Souvlaki and eggs cooking on the kettle"><br>
-<sub><b>Afterwards: a 12 kW frying pan.</b> Souvlaki, eggs, and yes, spaghetti. Lots of steam, very fast.</sub></td>
-</tr>
-<tr>
 <td><img src="img/real_dry_run.jpg" alt="Board flipped and powered dry"><br>
 <sub><b>Then we ran it dry on purpose.</b> The white soldermask goes yellow, then brown…</sub></td>
 <td><img src="img/real_burnt.jpg" alt="Burnt copper spiral"><br>
-<sub><b>…and the copper lets go.</b> With an already tired pack it took longer than expected, but the silkscreen says <i>NEVER POWER WITHOUT WATER</i> for a reason.</sub></td>
+<sub><b>…and the copper lets go.</b> It took longer than expected, but the silkscreen says <i>NEVER POWER WITHOUT WATER</i> for a reason.</sub></td>
 </tr>
 </table>
 

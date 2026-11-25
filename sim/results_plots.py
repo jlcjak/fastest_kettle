@@ -36,21 +36,4 @@ ax.grid(axis="x", color=GRID); ax.set_axisbelow(True); ax.tick_params(axis="y", 
 ax.set_title("Time to boil", loc="left", color=INK, fontsize=14, fontweight="bold")
 fig.tight_layout(); fig.savefig(os.path.join(ROOT, "img", "result_boil_times.png"), dpi=150)
 
-# ---- 2: attempt 2, pack collapse (small multiples, no dual axis) ----
-T = [1, 3, 13, 23, 33, 43, 59]
-V = [38.0, 37.2, 34.0, 29.9, 28.7, 25.2, 21.6]
-A = [389, 329, 317, 281, 262, 227, 194.5]
-P = [v * a / 1e3 for v, a in zip(V, A)]
-fig, axs = plt.subplots(1, 3, figsize=(11, 3.4), sharex=True)
-for ax, y, lab, unit in ((axs[0], P, "Heater power", "kW"), (axs[1], V, "Pack voltage (idle ~50 V)", "V"), (axs[2], A, "Current", "A")):
-    ax.plot(T, y, color=ORANGE, lw=2, marker="o", ms=6, mec=SURF, mew=1.5)
-    ax.set_title(lab, loc="left", color=INK, fontsize=12, fontweight="bold")
-    ax.set_ylabel(unit); ax.set_xlabel("seconds after switch-on"); ax.grid(color=GRID); ax.set_ylim(0, max(y) * 1.18)
-    fmt = "{:.0f}" if unit == "A" else "{:.1f}"
-    ax.annotate(fmt.format(y[0]), (T[0], y[0]), textcoords="offset points", xytext=(8, 6) if unit == "V" else (8, -14), color=INK)
-    ax.annotate(fmt.format(y[-1]), (T[-1], y[-1]), textcoords="offset points", xytext=(-14, 10), color=INK)
-axs[0].axhline(16, color=BLUE, lw=1.5, ls="--"); axs[0].text(30, 16.4, "16 kW design point", color=BLUE)
-fig.suptitle("Second run, straight after the first boil: the used batteries ran out of breath", x=0.01, ha="left",
-             color=INK, fontsize=13, fontweight="bold")
-fig.tight_layout(); fig.savefig(os.path.join(ROOT, "img", "result_pack_collapse.png"), dpi=150)
 print(f"sim same conditions {t_real:.1f} s, sim good {t_good:.1f} s")
