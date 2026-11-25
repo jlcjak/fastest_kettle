@@ -21,7 +21,7 @@ t_good, _, _ = sizing.simulate(sizing.SOURCES["4x lead-acid, good (5.5 mOhm/batt
 
 # ---- 1: how fast is it ----
 rows = [("Normal 2 kW electric kettle", 185.0, INK2),
-        ("Impulse Labs cooktop (claim)", 40.0, INK2),
+        ("Impulse Labs cooktop", 40.0, INK2),
         ("Fastest Kettle - measured, 1.05 L from 12 °C", 29.5, ORANGE),
         (f"Fastest Kettle - sim, same conditions", t_real, BLUE),
         (f"Fastest Kettle - sim, good batteries, 1 L from 15 °C", t_good, BLUE)]

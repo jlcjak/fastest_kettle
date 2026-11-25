@@ -22,8 +22,8 @@ and it's boiling at **29.5 s**.*
 
 ## The idea in 20 seconds
 
-A kitchen kettle is about 2 kW, so a litre takes ~3 minutes. The Impulse Labs battery cooktop does ~10 kW and claims
-~30-40 s. We wanted to beat it for a few hundred euros.
+A kitchen kettle is about 2 kW, so a litre takes ~3 minutes. The Impulse Labs battery cooktop does ~10 kW and boils
+a litre in ~40 s. We wanted to beat it for a few hundred euros.
 
 1. **Get ~15 kW.** Four used car batteries in series (48 V) happily dump 400 A for half a minute. That's literally what their
    "cold cranking amps" rating tests.
