@@ -56,7 +56,7 @@
    sheet across it without beading.
 2. **Press the 4 jig blocks** into their holes (15/30°, 105/120°, 195/210°, 285/300°).
 3. **Silicone:** scuff the bottom 10 mm of the ring, then lay a 3-4 mm bead in a circle. Lower the ring in against all 4
-   blocks and run a fillet inside and outside. Cure warm (we hung it in a heated printer chamber at 20 → 29 °C overnight).
+   blocks and run a fillet inside and outside. Cure warm and humid; silicone cures with moisture from the air (we hung it overnight in a heated printer chamber at ~34 °C, 85 % RH).
    Wait **24 h before a cold leak test** and **~48 h before boiling**. Pull the jig blocks straight up.
 4. **Feet (optional):** set the M5 inserts into the PC feet, then bolt them through the 45/135/225/315° holes.
    **Tie it down anyway.** Two 35 mm² cables are stiff enough to drag, lift or tip a ~1 kg kettle. Lash the board rim

@@ -68,7 +68,7 @@ heater pad. No busbars.*
 <td><img src="img/real_silicone.jpg" alt="Silicone bead laid on the board"><br>
 <sub><b>Silicone bead</b>, ring down onto the printed blocks, then a second pass on the inside seam.</sub></td>
 <td><img src="img/real_cure_printer.jpg" alt="Kettle curing inside a 3D printer chamber"><br>
-<sub><b>Cured overnight hanging inside a 3D printer</b>, because silicone cures faster warm. 20 → 29 °C.</sub></td>
+<sub><b>Cured overnight hanging inside a 3D printer</b>, because silicone cures faster warm and humid: about 34 °C and 85 % humidity.</sub></td>
 </tr>
 <tr>
 <td><img src="img/real_contactors.jpg" alt="Two EV200 contactors"><br>
