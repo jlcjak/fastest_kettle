@@ -88,8 +88,6 @@ heater pad. No busbars.*
 
 - **Boiling is an absurdly good coolant.** 28 W/cm² leaves the aluminium with only ~13 °C of superheat (~113 °C). The copper
   on the dry side runs ~145 °C.
-- **The real enemy is the boiling crisis.** Past ~111-144 W/cm², the bubbles merge into a steam blanket and the floor runs
-  away. We sit at 28 W/cm² on average and ~50 W/cm² at the worst spots, about **2× margin**. Sanding adds a bit more.
 - **Hot spots were simulated on the real copper and fixed.** A 2D current-flow solve found 5× hot spots at sharp corners.
   Rev 2.2 rounds them off.
 
